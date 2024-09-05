@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ad5e0f, #e8a33c);
+    font-family: 'Georgia', serif;
+}
+
+
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+#imageContainer {
+    position: relative;
+    display: inline-block;
+    gap: 10px;
+}
+
+#fixedImage {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #007bff;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    
+}
+
+#fixedImage:hover {
+    transform: scale(1.05);
+}
+
+#subNodesContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sub-node {
+    width: 250px;
+    height: 180px;
+    background-color: #e0e0e0;
+    border: 2px solid #666;
+    border-radius: 8px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.additional-images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.additional-image-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.additional-image {
+    display: none;
+    width: 280px;
+    height: auto;
+    border: 2px solid #007bff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.sub-images-wrapper {
+    display: flex;
+    flex-direction: row; /* Exibe as imagens lado a lado */
+    gap: 10px; /* Espaçamento entre as imagens */
+    flex-wrap: wrap;
+}
+
+.sub-image {
+    display: none;
+    width: 120px;
+    height: auto;
+    border: 2px solid #007bff;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+#higiene-image {
+position: relative;
+    display: inline-block;
+    gap: 10px;
+
+}
+
+#fds {
+width: 150px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #007bff;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    margin: 3px;
+}
