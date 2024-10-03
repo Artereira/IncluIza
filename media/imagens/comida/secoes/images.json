@@ -1,0 +1,33 @@
+[
+    
+    [
+      {
+        "nome": "Arroz",
+        "image": "/media/imagens/comida/secoes/Comida/Arroz/Arroz.png"
+      },
+      {
+        "nome": "Bife",
+        "image": "/media/imagens/comida/secoes/Comida/Bife/Bife.png"
+      },
+      {
+        "nome": "Frango",
+        "image": "/media/imagens/comida/secoes/Comida/Frango/Frango.png"
+      },
+      {
+        "nome": "Macarrão",
+        "image": "/media/imagens/comida/secoes/Comida/Macarrão/Macarrão.png"
+      },
+      {
+        "nome": "Ovo",
+        "image": "/media/imagens/comida/secoes/Comida/Ovo/Ovo.png"
+      },
+      {
+        "nome": "Ovo Cozido",
+        "image": "/media/imagens/comida/secoes/Comida/Ovo_Cozido/Ovo_Cozido.png"
+      },
+      {
+        "nome": "Ovo Frito",
+        "image": "/media/imagens/comida/secoes/Comida/Ovo_Frito/Ovo_Frito.png"
+      }
+    ]
+]
