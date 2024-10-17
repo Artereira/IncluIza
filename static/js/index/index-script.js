@@ -43,7 +43,7 @@ category_contents.forEach(category_content => {
         let button = document.createElement("button");
         let strong = document.createElement("strong");
         let button_div = document.createElement("div");
-        button_div.style.backgroundImage = "url(/incluiza/media/imagens/acoes/Comer/Comer.png)";
+        button_div.style.backgroundImage = "url(/static/media/imagens/acoes/Comer/Comer.png)";
         strong.innerHTML = "Comer";
         
         button.appendChild(button_div);

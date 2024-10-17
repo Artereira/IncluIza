@@ -1,4 +1,4 @@
-@import url(/incluiza/static/css/global.css);
+@import url(/static/css/global.css);
 
 :root
 {
@@ -144,7 +144,7 @@ button
 .category-content > div > div > button > div
 {
     height: 100%;
-    background-image: url(/media/imagens/acoes/Comer/Comer.png);
+    background-image: url(/static/media/imagens/acoes/Comer/Comer.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

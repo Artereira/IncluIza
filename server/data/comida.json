@@ -1,0 +1,27 @@
+{
+    "comida": [
+        {
+            "nome_display": "Ovo",
+            "photo_url": "/static/media/imagens/comida/secoes/comida/ovo/ovo.png",
+            "audio_url": "/static/media/audio/ovo.MP3"
+        },
+        {
+            "nome_display": "Frango",
+            "photo_url": "/static/media/imagens/comida/secoes/comida/frango/frango.png",
+            "audio_url": "/static/media/audio/frango.MP3"
+        }
+    ],
+
+    "lanche": [
+        {
+            "nome_display": "Pizza",
+            "photo_url": "/static/media/imagens/comida/secoes/lanche/pizza/pizza.png",
+            "audio_url": "/static/media/audio/pizza.MP3"
+        },
+        {
+            "nome_display": "Pão",
+            "photo_url": "/static/media/imagens/comida/secoes/lanche/pao/pao.png",
+            "audio_url": "/static/media/audio/pao.MP3"
+        }
+    ]
+}
