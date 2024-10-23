@@ -53,7 +53,6 @@ category_contents.forEach(category_content => {
         button.appendChild(strong);
         div.appendChild(button);
         div.classList.add("btns-voice");
-        console.log(div);
 
         div_content.appendChild(div);
     }
