@@ -1,3 +1,5 @@
+import { dados } from "./dados.js";
+
 var painel_init = document.getElementById("painel-init");
 var nav_categorys = document.querySelectorAll(".nav-category");
 var category_contents = document.querySelectorAll(".category-content");
@@ -6,6 +8,7 @@ var active_category_content = "";
 var shortcuts_btn = document.querySelectorAll(".shortcut-btn")
 
 var shortcuts_btn_index = 0;
+var shortcuts_btn_index_limit = 0;
 
 var back_btn = document.getElementById("back-btn");
 
@@ -34,22 +37,24 @@ nav_categorys.forEach(nav_category => {
 });
 
 category_contents.forEach(category_content => {
-    
+
     let div_content = category_content.querySelector("div");
 
-    for (let i = 0; i < 15; i++)
-    {
+    for (let index = 0; index < dados[category_content.classList[1]].length; index++) {
         let div = document.createElement("div");
         let button = document.createElement("button");
         let strong = document.createElement("strong");
         let button_div = document.createElement("div");
-        button_div.style.backgroundImage = "url(/static/media/imagens/acoes/Comer/Comer.png)";
-        strong.innerHTML = "Comer";
-        
+
+        button_div.style.backgroundImage = `url(${dados[category_content.classList[1]][index].photo_url})`;
+        strong.innerHTML = dados[category_content.classList[1]][index].name_display;
+
         button.appendChild(button_div);
         button.appendChild(strong);
         div.appendChild(button);
         div.classList.add("btns-voice");
+        console.log(div);
+
         div_content.appendChild(div);
     }
 
@@ -67,15 +72,31 @@ back_btn.addEventListener("click", () => {
 btns_voice.forEach(btn_voice => {
     btn_voice.addEventListener("click", () => {
         shortcuts_btn[shortcuts_btn_index].style.backgroundImage = btn_voice.querySelector("div").style.backgroundImage;
-        
-        if (shortcuts_btn_index == 4)
-        {
+
+        if (shortcuts_btn_index == shortcuts_btn_index_limit) {
             shortcuts_btn_index = 0;
         }
 
-        else
-        {
+        else {
             shortcuts_btn_index++;
         }
     });
 });
+
+function set_shortcuts_btn_index_limit() {
+    if (window.innerWidth < 1100) {
+        shortcuts_btn_index_limit = 2;
+    }
+
+    else if (window.innerWidth < 790) {
+        shortcuts_btn_index_limit = 0;
+    }
+
+    else {
+        shortcuts_btn_index_limit = 4;
+    }
+}
+
+window.addEventListener("resize", set_shortcuts_btn_index_limit);
+set_shortcuts_btn_index_limit();
+

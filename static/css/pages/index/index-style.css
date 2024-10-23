@@ -144,7 +144,6 @@ button
 .category-content > div > div > button > div
 {
     height: 100%;
-    background-image: url(/static/media/imagens/acoes/Comer/Comer.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -308,7 +307,7 @@ button
 
 #dock-2
 {
-    background-color: var(--theme-default-1);
+    background: linear-gradient(90deg, var(--theme-default-linear-gradient-5));
 }
 
 #dock-2 > div
@@ -346,8 +345,8 @@ button
 
 @media (min-width: 0px) and (max-width: 1099px) {
 
-    #dock-2 > div:nth-child(2) > button:nth-child(4),
-    #dock-2 > div:nth-child(2) > button:nth-child(5)
+    #dock-2 > div:nth-child(2) > button:nth-child(5),
+    #dock-2 > div:nth-child(2) > button:nth-child(4)
     {
         display: none;
     }
@@ -360,8 +359,8 @@ button
         gap: 0px;
     }
 
-    #dock-2 > div:nth-child(2) > button:nth-child(2),
-    #dock-2 > div:nth-child(2) > button:nth-child(3)
+    #dock-2 > div:nth-child(2) > button:nth-child(3),
+    #dock-2 > div:nth-child(2) > button:nth-child(2)
     {
         display: none;
     }

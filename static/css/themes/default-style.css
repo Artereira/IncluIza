@@ -5,4 +5,5 @@
     --theme-default-2: #FFC32B;
     --theme-default-3: #24FF3A;
     --theme-default-4: #FF3257;
+    --theme-default-linear-gradient-5: var(--theme-default-1), blue;
 }
