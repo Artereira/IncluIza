@@ -26,7 +26,7 @@ export var dados = {
             "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/cafe.png"
         },
         {
-            "name_display": "Marcarrão",
+            "name_display": "Macarrão",
             "photo_url": "/incluiza/static/media/icons/alimentacao/comida/macarrao.png"
         },
         {
@@ -43,7 +43,7 @@ export var dados = {
             "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/melancia.png"
         },
         {
-            "name_display": "Lanranja",
+            "name_display": "Laranja",
             "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/laranja.png"
         },
         {
