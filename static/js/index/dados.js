@@ -60,6 +60,11 @@ export var dados = {
             "name_display": "Suco",
             "photo_url": "/incluiza/static/media/icons/alimentacao/bebidas/suco.png"
         },
+
+        {
+            "name_display": "Hambúrguer",
+            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/hamburguer.png"
+        }
     ],
 
     "emocoes": [
