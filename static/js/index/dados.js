@@ -2,11 +2,13 @@ export var dados = {
     "comida": [
         {
             "name_display": "Ovo",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/ovo_frito.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/ovo_frito.png",
+            "audio_url": "/incluiza/static/media/audio/ovo.MP3"
         },
         {
             "name_display": "Frango",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/frango.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/frango.png",
+            "audio_url": "/incluiza/static/media/audio/frango .MP3"
         },
         {
             "name_display": "Bife",
@@ -15,7 +17,8 @@ export var dados = {
     
         {
             "name_display": "Pizza",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/pizza.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/pizza.png",
+            "audio_url": "/incluiza/static/media/audio/pizza.MP3"
         },
         {
             "name_display": "Pão",
@@ -23,7 +26,8 @@ export var dados = {
         },
         {
             "name_display": "Achocolatado",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/cafe.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/cafe.png",
+            "audio_url": "/incluiza/static/media/audio/achocolatado.MP3"
         },
         {
             "name_display": "Macarrão",
@@ -48,7 +52,8 @@ export var dados = {
         },
         {
             "name_display": "Água",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/bebidas/agua.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/bebidas/agua.png",
+            "audio_url": "/incluiza/static/media/audio/Agua .MP3"
         },
 
         {
@@ -58,7 +63,8 @@ export var dados = {
 
         {
             "name_display": "Suco",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/bebidas/suco.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/bebidas/suco.png",
+            "audio_url": "/incluiza/static/media/audio/Suco.MP3"
         },
 
         {
