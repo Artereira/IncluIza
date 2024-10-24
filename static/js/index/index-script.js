@@ -45,9 +45,18 @@ category_contents.forEach(category_content => {
         let button = document.createElement("button");
         let strong = document.createElement("strong");
         let button_div = document.createElement("div");
+        
+        if (dados[category_content.classList[1]][index].audio_url)
+        {
+            let audio_url = document.createElement("audio");
+            audio_url.classList.add("audio");
+            audio_url.src = dados[category_content.classList[1]][index].audio_url;
+            div.appendChild(audio_url);
+        }
 
         button_div.style.backgroundImage = `url(${dados[category_content.classList[1]][index].photo_url})`;
         strong.innerHTML = dados[category_content.classList[1]][index].name_display;
+
 
         button.appendChild(button_div);
         button.appendChild(strong);
