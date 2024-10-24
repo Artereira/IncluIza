@@ -71,7 +71,7 @@ export var dados = {
        
     ],
 
-    "higene": [
+    "higiene": [
         {
             "name_display": "Chuveiro",
             "photo_url": "/incluiza/static/media/icons/banheiro/chuveiro.png"
