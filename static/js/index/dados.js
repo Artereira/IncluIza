@@ -2,7 +2,7 @@ export var dados = {
     "comida": [
         {
             "name_display": "Ovo",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/ovo.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/ovo_frito.png"
         },
         {
             "name_display": "Frango",
@@ -39,16 +39,12 @@ export var dados = {
             "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/maca.png"
         },
         {
-            "name_display": "Banana",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/banana.png"
-        },
-        {
             "name_display": "Melancia",
             "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/melancia.png"
         },
         {
-            "name_display": "Pera",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/pera/pera.png"
+            "name_display": "Lanranja",
+            "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/laranja.png"
         },
     ],
 
