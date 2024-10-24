@@ -2,49 +2,49 @@ export var dados = {
     "comida": [
         {
             "name_display": "Ovo",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/ovo/ovo.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/ovo.png"
         },
         {
             "name_display": "Frango",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/frango/frango.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/frango.png"
         },
         {
             "name_display": "Bife",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/bife/bife.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/bife.png"
         },
     
         {
             "name_display": "Pizza",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/pizza/pizza.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/pizza.png"
         },
         {
             "name_display": "Pão",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/pao/pao.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/pao.png"
         },
         {
             "name_display": "Achocolatado",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/chocolate_na_caneca/cafe.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/lanche/cafe.png"
         },
         {
             "name_display": "Marcarrão",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/macarrao/macarrao.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/macarrao.png"
         },
         {
             "name_display": "Arroz",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/arroz/arroz.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/comida/arroz.png"
         },
 
         {
             "name_display": "Maçã",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/maca/maca.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/maca.png"
         },
         {
             "name_display": "Banana",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/banana/banana.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/banana.png"
         },
         {
             "name_display": "Melancia",
-            "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/melancia/melancia.png"
+            "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/melancia.png"
         },
         {
             "name_display": "Pera",
