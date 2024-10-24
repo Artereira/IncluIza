@@ -85,7 +85,7 @@ export var dados = {
             "photo_url": "/incluiza/static/media/icons/banheiro/papel_higienico.png"
         },
         {
-            "name_display": "Vaso sanitario",
+            "name_display": "Vaso sanitário",
             "photo_url": "/incluiza/static/media/icons/banheiro/vaso_sanitario.png"
         }
     ],
