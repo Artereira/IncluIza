@@ -46,6 +46,20 @@ export var dados = {
             "name_display": "Lanranja",
             "photo_url": "/incluiza/static/media/icons/alimentacao/frutas/laranja.png"
         },
+        {
+            "name_display": "Água",
+            "photo_url": "/incluiza/static/media/icons/alimentacao/bebidas/agua.png"
+        },
+
+        {
+            "name_display": "Refrigerante",
+            "photo_url": "/incluiza/static/media/icons/alimentacao/bebidas/refrigerante.png"
+        },
+
+        {
+            "name_display": "Suco",
+            "photo_url": "/incluiza/static/media/icons/alimentacao/bebidas/suco.png"
+        },
     ],
 
     "emocoes": [
